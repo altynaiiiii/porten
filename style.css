@@ -1,0 +1,283 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    height: 10vh;
+    background-color: #0F0F0F;
+}
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #969969;
+}
+.main{
+    color: white;
+}
+main{
+    height: 90vh;
+    background-image: url(./../images/Rectangle\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ramka{
+    width: 320px;
+    height:320px;
+    border: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ramka p{
+    border-top: 2px solid white;
+    width: fit-content;
+    margin-top: 10px;
+    padding-top: 10px
+}
+main > p{
+    width: 720px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    color: #FFFFFF;
+}
+#hr{
+    height: 1px;
+    width: 120px;
+    background-color: white;
+}
+.season{
+    background-color: black;
+    color: white;
+}
+.top{
+    height: 70vh;
+    display: flex;
+}
+
+.top .left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 0 80px;
+}
+.top .right{
+    width: 45%;
+    background-image: url(./../images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.top .right hr{
+    margin: 30px 0;
+}
+.clocks{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.clock > div    {
+    background-color: #191B1C;
+    padding: 55px 22px;
+}
+.bottom{
+    height: 70vh;
+    display: flex;
+    width: 100%;
+}
+.bottom .left{
+    background-image: url(./../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+}
+.bottom .right{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.bottom .right p{
+    width: 470px;
+    text-align: center;
+}
+.bottom .right hr{
+    margin: 40px 0;
+}
+.bottom .right button{
+    margin-top: 70px;
+}
+.bottom .right h1{
+    margin-top: 50px;
+}
+.new{
+    background-color: black;
+    height: 120vh;
+    color: white;
+}
+.new .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box3{
+    height: 50vh;
+    width: 100%;
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box3 hr{
+    margin: 30px 0;
+}
+footer{
+    background-image: url(./../images/Rectangle\ 15.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .times{
+   display: flex;
+   justify-content: space-between;
+   height: 60%;
+}
+footer .time{
+    width: 30%;
+}
+footer .time div{
+    background: none;
+    height: fit-content;
+    flex-wrap: wrap;
+    align-content: unset;
+    
+}
+footer .time div a{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: black;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+}
+footer .time .top{
+    margin-top: 20px;
+}
+footer p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+footer h2{
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+}
+input[type="text"]{
+    width: 60%;
+    background: rgba(255, 255, 255, 0.4);
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+input[type="submit"]{
+    width: 40%;
+    height: 40px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color:#0F0F0F;
+    border: none;
+}
+input::placeholder{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+footer .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#burger{
+    width: 32px;
+    display: none;
+}
+
+
+@media(max-width:576px){
+    #burger{
+        display: block;
+}
+header .container>div{
+    display: none;
+
+}
+}
